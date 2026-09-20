@@ -5,8 +5,11 @@
 The departments of the O.P.D. (Medicine, Surgery, Eye ...).
 
 - **Unit**: the name, as printed.
-- **Room No.**: fills in on a registration when the unit is chosen.
+- **Room No.**: fills in on a registration when the unit is chosen, and is the room shown on the token
+  display for a doctor who has none of their own.
 - **OPD Use?**: **Yes** offers the unit at the registration desk.
+- **Queue** and **Token Prefix**: how this department counts its O.P.D. tokens - see
+  [O.P.D. Queue](../appointments/queue.md#the-department).
 
 ![Units](../assets/screens/masters/units.png)
 
@@ -22,6 +25,9 @@ The doctors of the hospital.
   Prescription** (one per line). These make the doctor's letterhead on prescriptions.
 - **O.P.D. Timing**, printed for patients. The bookable clinic hours are in
   [Doctor Schedules](../appointments/schedules.md).
+- **Room**: where the doctor sits, shown on the
+  [token display](../appointments/queue.md#the-screen-of-the-waiting-area). Empty: the room of the
+  doctor's unit.
 
 ![Doctors](../assets/screens/masters/doctors.png)
 

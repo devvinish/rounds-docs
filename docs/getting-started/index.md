@@ -42,8 +42,11 @@ user is locked. Ask the administrator to unlock it.
    Click a line to go to it. Each role sees the reminders of its own work.
 5. <span class="n">5</span> **Hospital Today**: the tiles of the most used screens (New O.P. Registration,
    Find Patient, Book Appointment, New Consultation, New Cash Bill, New Medicine Bill, New Lab Order, Bed
-   Board), then today's appointments, beds, laboratory and clinical work.
-6. <span class="n">6</span> **Today's Appointments**, **O.P.D. Visits** and **Collection** of the last 30 days,
+   Board), then today's appointments, beds, laboratory and clinical work. **Appointments** counts who is
+   still to come, who is waiting, who is in the room and who has been seen, and **O.P.D. Queue** beside it
+   opens [the queue](../appointments/queue.md).
+6. <span class="n">6</span> **Today's Appointments** (with the token of each patient who is waiting),
+   **O.P.D. Visits** and **Collection** of the last 30 days,
    and below them the **Key Performance Indicators** and the **Critical Results to Verify**.
 
 **Viewing** (top right of the Home page) shows the Home page of another day.

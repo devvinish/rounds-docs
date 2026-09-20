@@ -2,8 +2,8 @@
 
 ## Bed Board
 
-**Registration > Bed Board** shows every ward at a glance: its beds, how many are occupied, kept or free,
-and the occupancy.
+**Registration > Bed Board** opens on every ward at once, each with its beds, how many are occupied,
+kept or free, and its occupancy:
 
 ![The Bed Board with every ward](../assets/screens/registration/bed-board.png)
 
@@ -11,12 +11,22 @@ Choose a <span class="n">1</span> **Ward** to see its beds one by one:
 
 ![The beds of one ward](../assets/screens/registration/bed-board-ward.png)
 
-| Colour | Meaning |
+Each ward is a card of its own. Its heading gives the beds it holds and what it costs a day, and on the
+right the figures of the moment with a bar showing how full it is:
+
+![The beds of a ward, close up](../assets/screens/registration/bed-board-tiles.png)
+
+Every bed is a tile with its number in large type, so a ward can be read from across the room:
+
+| Tile | Meaning |
 |---|---|
-| green | **free**: click it to admit a patient into this bed |
-| red | **occupied**: shows the patient's name, I.P. No. and the day of the stay. Click it to open the admission, e.g. to move the patient. |
-| yellow | **kept** for a patient on the way (see below) |
-| red frame | **two in one bed**: two admissions share the bed, one of them on an extra bed |
+| green, **Free** | click it to admit a patient into this bed |
+| red | **occupied**: the patient's name, I.P. No. and the day of the stay. Click it to open the admission, e.g. to move or discharge the patient. |
+| amber, **Kept for ...** | held for a patient on the way (see below), with **Admit** and **Release** on the tile |
+| red frame, *n* **in this bed** | two admissions share the bed, one of them on an extra bed |
+
+The line of colours above the wards says the same thing in words, and **sharing a bed** appears in a
+ward's figures whenever there are more patients in it than beds taken.
 
 **Admit a Patient** opens an empty [admission](admission.md).
 

@@ -24,6 +24,9 @@ payments and GST. Click the pencil of the one row:
 | **PIN Code** | of the hospital |
 | **SAC of the Services** | the service code the GST returns and e-invoices give the hospital's services |
 | **E-invoices for Company Bills** | **Yes** when the hospital's turnover requires e-invoicing |
+| **Give a Token at Registration** | **Yes** puts every patient registered or renewed for a doctor into that doctor's [O.P.D. queue](../appointments/queue.md), and prints the token on the slip |
+| **Token Display Refreshes Every (seconds)** | how often the screen of the waiting area looks for a new token |
+| **Key of the Token Display** | the key carried in the address of the [token display](../appointments/queue.md#the-screen-of-the-waiting-area). **Make a New Key** replaces it, which stops every address handed out so far. |
 
 Click **Apply Changes**.
 

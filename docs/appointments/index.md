@@ -8,7 +8,7 @@ The **Appointments** menu books patients with a doctor and runs the day's queue:
 - how long each patient waited.
 
 It also holds the clinic hours and the leave of every doctor, which decide the free times offered when
-booking.
+booking, and the [token display](queue.md#the-screen-of-the-waiting-area) of the waiting area.
 
 ![The Appointments menu](../assets/screens/appointments/menu.png)
 
@@ -18,6 +18,7 @@ booking.
 | [Book Appointment](book.md) | Book a patient with a doctor on a day and at a time |
 | [Doctor Schedules](schedules.md) | Set the clinic days and hours of each doctor, and the length of an appointment |
 | [Doctor Leave](schedules.md#doctor-leave) | Record the days a doctor is away, so nobody is booked then |
+| [O.P.D. Queue](queue.md) | Run the day's queue: give tokens, call patients in, and the screen of the waiting area |
 
 ## The diary of the day
 
@@ -62,4 +63,4 @@ The **Actions** column of each row offers what fits its status:
 !!! tip "Tokens without times"
     A clinic that works on a first-come basis gives the whole clinic one slot in
     [Doctor Schedules](schedules.md). Patients are booked "in the queue", and the token given on
-    **Arrived** decides the order.
+    **Arrived** decides the order. [O.P.D. Queue](queue.md) is the screen that then runs the day.

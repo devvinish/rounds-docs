@@ -6,6 +6,14 @@
 
 ![Appointments Register](../assets/screens/reports/r221.png)
 
+## O.P.D. Queue and Waiting Times
+
+**Reports > O.P.D. Queue and Waiting Times**. How long patients waited for their token to be called, and
+how long the consultation took, **By Doctor** and **By Hour of Arrival**. It counts the visits that
+finished - seen, or did not come. See [O.P.D. Queue](../appointments/queue.md#how-long-patients-waited).
+
+![O.P.D. Queue and Waiting Times](../assets/screens/queue/report.png)
+
 ## Doctor Utilisation
 
 **Reports > Doctor Utilisation**. How busy each doctor was: the appointments and patients of the period, **By Doctor**.

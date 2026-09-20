@@ -86,6 +86,7 @@ nav:
       - appointments/index.md
       - Book Appointment: appointments/book.md
       - Doctor Schedules and Leave: appointments/schedules.md
+      - O.P.D. Queue and Token Display: appointments/queue.md
   - Clinical:
       - clinical/index.md
       - Consultations and Clinical Record: clinical/consultations.md
@@ -137,5 +138,6 @@ nav:
       - Users and Roles: administration/users.md
       - Hospital Settings: administration/settings.md
       - Logs: administration/logs.md
+      - Audit Trail: administration/audit.md
   - Workflows: workflows/index.md
   - FAQ: faq.md

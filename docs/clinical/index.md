@@ -2,6 +2,7 @@
 
 The **Clinical** menu is the doctor's and the nurse's record of the patient:
 
+- the queue of patients waiting for the doctor today;
 - consultations, with diagnoses coded in I.C.D.-10;
 - allergies and long-standing problems;
 - the discharge summary;
@@ -15,6 +16,7 @@ The **Clinical** menu is the doctor's and the nurse's record of the patient:
 
 | Option | Use it to | Page |
 |---|---|---|
+| My Queue | See the patients waiting for you today and call the next one in | [O.P.D. Queue](../appointments/queue.md#the-doctors-own-screen) |
 | Consultations / New Consultation | Write the doctor's note of a visit: vitals, complaints, examination, diagnosis, advice | [Consultations](consultations.md) |
 | Clinical Record | See everything clinical about one patient, and record allergies and long-standing problems | [Consultations](consultations.md#the-clinical-record) |
 | Discharge Summaries / New Discharge Summary | Write the summary the patient takes home | [In the Wards](inpatient.md) |
