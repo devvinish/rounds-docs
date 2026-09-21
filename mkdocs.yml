@@ -114,6 +114,14 @@ nav:
       - Selling Medicines: pharmacy/selling.md
       - Medicines and Stock: pharmacy/stock.md
       - Buying Medicines: pharmacy/buying.md
+  - H.R.M.S.:
+      - hrms/index.md
+      - Setting Up: hrms/setup.md
+      - Employees: hrms/employees.md
+      - Duty Roster and Attendance: hrms/roster-attendance.md
+      - Leave: hrms/leave.md
+      - Payroll: hrms/payroll.md
+      - Reports: hrms/reports.md
   - Reports:
       - reports/index.md
       - Registration and Admission: reports/registration.md
@@ -125,6 +133,7 @@ nav:
       - management/index.md
       - Management Dashboard: management/dashboard.md
       - Analyses: management/analyses.md
+      - Staff Cost: management/staff-cost.md
       - Report Schedules: management/schedules.md
   - Masters:
       - masters/index.md

@@ -1,7 +1,7 @@
 # Workflows
 
-Each workflow follows one patient from the first screen to the last. The steps link to the pages that
-explain each screen.
+Each workflow follows one patient (or, for the staff, one month) from the first screen to the last. The
+steps link to the pages that explain each screen.
 
 ## An O.P.D. visit
 
@@ -87,3 +87,24 @@ explain each screen.
     - [E-Invoices](../finance/gst-accounts.md#e-invoices), if required;
     - the [Accounting Export](../finance/gst-accounts.md#accounting-export) to Tally or Zoho Books;
     - the [doctor and referral shares](../finance/shares.md#doctor-and-referral-shares).
+
+## A month of the staff
+
+1. **Before the month.** [Duty Roster](../hrms/roster-attendance.md#duty-roster): **Fill from the Usual
+   Week** for each department, then change the days that differ.
+2. **Every day.** [Attendance](../hrms/roster-attendance.md#attendance): mark who came, or
+   [load the machine's file](../hrms/roster-attendance.md#load-from-the-machine). At the end of the day,
+   **Mark the Rest Absent**.
+3. **As it comes.** [Leave](../hrms/leave.md): allow or refuse what is asked. Allowed leave writes the
+   roster and the attendance by itself.
+4. **At the end of the month.**
+    - check [Attendance of the Month](../hrms/roster-attendance.md#attendance-of-the-month) and that no
+      leave is still waiting;
+    - [Run Payroll](../hrms/payroll.md#run-payroll): **Work Out the Month**, read it, correct, work it out
+      again, **Lock the Month**;
+    - send the [Bank Payment Statement](../hrms/reports.md#bank-payment-statement) to the bank, then
+      **Record the Payment**;
+    - print the [payslips](../hrms/payroll.md#the-payslip), and hand the
+      [Statutory Returns](../hrms/reports.md#statutory-returns) figures to whoever files P.F. and E.S.I.;
+    - the salary journal and the payment reach the [accounts](../hrms/payroll.md#salaries-in-the-accounts)
+      and the [Accounting Export](../finance/gst-accounts.md#accounting-export) by themselves.

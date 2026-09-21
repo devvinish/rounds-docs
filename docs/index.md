@@ -7,6 +7,7 @@ Rounds HMS runs the day of a hospital in one place. It covers:
 - bills, payments, insurance claims and accounts;
 - the laboratory, X-ray and ultrasound;
 - the pharmacy and its stock;
+- the staff: employees, the duty roster, attendance, leave and payroll;
 - the registers and reports the hospital has to keep.
 
 It runs in a web browser, on a computer, a tablet or a phone.
@@ -41,8 +42,9 @@ same numbers appear in the steps below each picture. Click a picture to see it f
 | [Finance](finance/index.md) | Cash and credit bills, advances, the I.P. final bill, dues, day-end closing, insurance claims, doctor shares, GST and the accounts |
 | [Investigation](investigation/index.md) | Lab orders, samples, results, X-ray and ultrasound reports |
 | [Pharmacy](pharmacy/index.md) | Medicine bills and returns, stock, purchase orders and entries |
+| [H.R.M.S.](hrms/index.md) | Employees, the duty roster, attendance, leave, payroll and payslips, and the staff reports |
 | [Reports](reports/index.md) | The registers and summaries, and how to print or download them |
-| [Management](management/index.md) | For administrators: the key figures, revenue, occupancy, lab turnaround, payer mix, and reports mailed on a schedule |
+| [Management](management/index.md) | For administrators: the key figures, revenue, occupancy, lab turnaround, payer mix, staff cost, and reports mailed on a schedule |
 | [Masters](masters/index.md) | Units, doctors, the tariff, wards, medicines and report formats |
 | [Administration](administration/index.md) | Users and roles, hospital details, taxes, logs |
 | [Workflows](workflows/index.md) | Whole journeys from start to end: an O.P.D. visit, an admission to discharge, a lab test, a cashless claim |

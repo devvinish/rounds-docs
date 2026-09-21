@@ -52,6 +52,31 @@
     [Reject](investigation/laboratory.md#receive-samples) it with the reason. The tests go back to **To
     collect**, and a new sample is taken.
 
+## Staff and payroll
+
+??? question "I cannot see the H.R.M.S. menu."
+    Your role does not open it. An administrator ticks **H.R.M.S.** in your role's **Menus the role opens**
+    ([Roles](administration/users.md#roles)). Salary Structure, Run Payroll and the two settings pages
+    are for administrators only.
+
+??? question "Work Out the Month says the month is locked."
+    A locked month is final. Click **Open It Again**, correct what is wrong, work it out and lock it again
+    ([Run Payroll](hrms/payroll.md#locking-and-opening-again)). If the salaries are already recorded as
+    paid, take the payment back first.
+
+??? question "Leave is refused: only so many days are left."
+    More was asked for than will have built up by the first day of the leave. Ask for the days that are
+    left, and the rest as **Leave without pay** ([Leave](hrms/leave.md#ask-for-leave)).
+
+??? question "Somebody who came a few minutes late was counted half a day."
+    The full day of their shift is too long. Set **A Full Day Is** a little under the length of the
+    shift, e.g. 420 minutes for eight hours ([Shifts](hrms/setup.md#shifts)).
+
+??? question "The machine's times do not reach an employee."
+    Their **Machine No.** is missing or different. Fill it in on the
+    [employee](hrms/employees.md#attendance-and-the-usual-week), then click **Work Out the Days** on
+    [Load from the Machine](hrms/roster-attendance.md#load-from-the-machine).
+
 ## WhatsApp and printing
 
 ??? question "Does the hospital need a WhatsApp Business account?"

@@ -36,7 +36,7 @@ user is locked. Ask the administrator to unlock it.
     Next to it: today's date, your **role**, your **cash counter**, **Help** (opens this guide in a new
     tab) and your user menu.
 3. <span class="n">3</span> **The menu bar**: Registration, Appointments, Clinical, Finance, Investigation,
-   Pharmacy, Reports, Management, Masters, Administration. You see only the menus your role opens.
+   Pharmacy, H.R.M.S., Reports, Management, Masters, Administration. You see only the menus your role opens.
 4. <span class="n">4</span> **Reminders**: what needs doing, e.g. critical results not verified, samples
    waiting, discharges without a summary, blood bags about to expire, medicines at the reorder level.
    Click a line to go to it. Each role sees the reminders of its own work.
@@ -94,7 +94,8 @@ The line at the bottom of every page gives the release of Rounds HMS (e.g. *Roun
 | Doctor | Registration, Appointments, Clinical, Finance, Investigation, Pharmacy, Reports |
 
 These are the roles supplied. The administrator can change them in
-[Roles](../administration/users.md#roles).
+[Roles](../administration/users.md#roles). No role supplied opens **H.R.M.S.**: give it to the role of
+whoever keeps the staff records (see [H.R.M.S.](../hrms/index.md#who-can-use-it)).
 
 ## Next
 

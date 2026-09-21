@@ -39,7 +39,9 @@ example:
 - **Pathology Income** goes to *Direct Incomes*;
 - **Output CGST** goes to *Duties and Taxes*.
 
-Set it once, to match the ledgers in Tally or Zoho Books.
+Set it once, to match the ledgers in Tally or Zoho Books. The salaries of [payroll](../hrms/payroll.md#salaries-in-the-accounts)
+have their own lines too: one for each salary head (*PAYHEAD:BASIC* ...), and *Salaries Payable*, *Employer
+P.F. Contribution* and *Employer E.S.I. Contribution*.
 
 ![Ledger settings](../assets/screens/finance/ledger-settings.png)
 
@@ -49,6 +51,10 @@ Set it once, to match the ledgers in Tally or Zoho Books.
 the Day**.
 
 ![The day book](../assets/screens/finance/daybook.png)
+
+Salaries appear here too: each locked month of payroll is a journal *SALARY/2026-08* on the last day of the
+month, and recording the payment is a voucher *SALARYPAID/2026-08* on the day it was paid (see
+[Salaries in the accounts](../hrms/payroll.md#salaries-in-the-accounts)).
 
 **Finance > Ledger** shows one **Ledger** (Cash, a bank, an income ...) for a period: every entry with its
 debit, credit and running balance.

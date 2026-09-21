@@ -19,7 +19,7 @@ A **role** decides:
 | **Code** and **Role** | the short code and the name, e.g. *RECEPTION* / *Reception* |
 | **Description** | what the role does |
 | **Administrator** | **Yes** opens every menu, the users and the settings |
-| **Menus the role opens** | tick the menus: Registration, Appointments, Clinical, Finance, Investigation, Pharmacy, Masters, Reports ... |
+| **Menus the role opens** | tick the menus: Registration, Appointments, Clinical, Finance, Investigation, Pharmacy, H.R.M.S., Masters, Reports ... |
 | **Largest Discount (% of the bill)** | empty: any discount. A larger discount waits for the approval of a user whose limit covers it ([Discount Approvals](../finance/rates.md#discount-approvals)). |
 | **And at Most (Rs)** | a limit in rupees as well; empty: no limit in rupees |
 
