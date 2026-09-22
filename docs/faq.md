@@ -39,6 +39,17 @@
     document shows how it was paid. A payment recorded as cash but taken by UPI (or the other way) is the
     usual cause. Write the reason in **Remarks** before closing.
 
+??? question "The bed I want is not in the Bed No. list."
+    Somebody is in it, or it is kept for somebody else. Look at the [Bed Board](registration/beds.md): it
+    shows who is in each bed and which are kept. Release a reservation there if it is no longer needed.
+
+??? question "Why does an insured patient still have something to pay?"
+    The final bill leaves to the patient what the insurer does not pay: the
+    [items insurers do not pay](finance/insurance.md#items-insurers-do-not-pay), the room rent above what the
+    policy allows a day, the co-payment, and anything above the amount approved.
+    **How It Is Divided** on the [final bill](finance/inpatient-billing.md#an-insured-patients-bill) shows
+    each part.
+
 ## Laboratory
 
 ??? question "A lab order shows 'Not billed' in red."

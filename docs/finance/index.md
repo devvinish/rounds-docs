@@ -10,7 +10,7 @@ still owe, what the insurer settles, and what goes to the accountant.
 | [Bills](bills.md) | Cash Bills / New Cash Bill, Credit Bills / New Credit Bill, Miscellaneous Bills, Refunds / Expenses |
 | [In-Patient Billing and Dues](inpatient-billing.md) | Advance Receipts, I.P. Final Bills, Payments Received, Outstanding Dues, Receive from a Patient |
 | [The End of the Day](day-end.md) | Day-End Closing, Day-End Closings, Collections by Mode, Receivables Ageing |
-| [Insurance and Packages](insurance.md) | Insurance Claims, Packages and Schemes |
+| [Insurance and Packages](insurance.md) | Insurance Claims (with their papers), Items Insurers Do Not Pay, Packages and Schemes |
 | [Doctor and Referral Shares](shares.md) | Referrers, Share Rules, Doctor and Referral Shares, Share Payouts |
 | [Rates and Discounts](rates.md) | Tariff Versions, Discount Approvals |
 | [GST and the Accounts](gst-accounts.md) | GST Returns, E-Invoices, Ledger Settings, Day Book, Ledger, Accounting Export |

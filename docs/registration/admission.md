@@ -25,9 +25,11 @@ Or open **Registration > I.P. Admission** and choose the patient yourself:
 2. Check the **Admission Date** (today by default).
 3. <span class="n">2</span> **Ward**: the list shows the rate a day and the range of bed numbers of every
    ward.
-4. <span class="n">3</span> **Bed No.**: a bed of that ward. A bed that another patient is in, or that is
-   kept for somebody else, is refused. Look at the [Bed Board](beds.md) to find a free one.
-5. **Category**, **Empanelment** (the company or TPA that pays, or SELF) and **Doctor**.
+4. <span class="n">3</span> **Bed No.**: choose from the list. It holds only the **free beds** of the ward
+   chosen (and a bed kept for this patient, marked *kept for this patient*), so a bed cannot be typed wrong
+   or given to two patients. The [Bed Board](beds.md) shows every bed of every ward.
+5. **Category**, **Empanelment** (the insurer, TPA or company that pays, or SELF) and **Doctor**. For an
+   insurer, the [Insurance](#an-insured-patient) part of the form opens below.
 6. **Diagnosis**: the reason for admission.
 7. <span class="n">4</span> **Package / Scheme**: for a package such as a normal delivery, choose it here.
    **Package Price for This Patient** starts at the package's price and can be changed. The I.P. final bill
@@ -37,6 +39,30 @@ Or open **Registration > I.P. Admission** and choose the patient yourself:
 
 Next, take an advance from the patient in **Finance > Advance Receipts**.
 
+## An insured patient
+
+When the **Empanelment** is an insurer, a TPA or a scheme (anything but SELF), the form shows
+**Insurance**:
+
+![The insurance part of an admission](../assets/screens/registration/ip-insurance.png)
+
+- **The Insurer**: a warning appears at once if the insurer is marked inactive, or its contract (in
+  **Masters > Empanelled Companies**) has ended or not yet started.
+- **Claim**: its number and where it stands. **Open the Claim** opens it in
+  [Insurance Claims](../finance/insurance.md#insurance-claims).
+- **TPA**, **Policy No.**, **Member / Card No.** and **Policy Holder**, from the patient's card.
+- **Co-payment (%)**: the share of the bill the policy leaves to the patient, if it has one.
+- **Room Rent Allowed a Day**: the room rent the policy pays a day, if it has a limit. A dearer ward's
+  difference is then the patient's.
+
+**Save** opens the claim of the admission by itself, with these details. If a claim was already opened
+for this patient before the admission (a [planned operation](../finance/insurance.md#before-the-admission)),
+that claim is joined to the admission instead, with everything it already has.
+
+The co-payment, the room-rent limit and the approved amount are what the
+[I.P. final bill](../finance/inpatient-billing.md#an-insured-patients-bill) uses to divide the bill
+between the insurer and the patient.
+
 ## An admission in progress
 
 Open **Registration > I.P. Patients** and click the pencil of the patient:
@@ -45,20 +71,28 @@ Open **Registration > I.P. Patients** and click the pencil of the patient:
 
 ![An admission with its bed history, charges and transfer](../assets/screens/registration/ip-open.png)
 
-- <span class="n">1</span> **Ward / Bed History**: every ward and bed the patient has been in, from which
+- <span class="n">1</span> **What needs attention** on an insured admission, in yellow at the top:
+    - the pre-authorisation not sent yet;
+    - waiting for the insurer, and for how many days;
+    - a query from the insurer to answer;
+    - a refusal;
+    - room charges so far that are already more than the amount approved;
+    - an insurer whose contract has ended or that is inactive.
+- <span class="n">2</span> **Insurance**: the claim and the policy (above).
+- <span class="n">3</span> **Ward / Bed History**: every ward and bed the patient has been in, from which
   day, and who moved them.
-- <span class="n">2</span> **Room Charges So Far**: the days in each ward and bed at its daily rate, up to
+- <span class="n">4</span> **Room Charges So Far**: the days in each ward and bed at its daily rate, up to
   today. **Here now** marks the current bed.
-- <span class="n">3</span> **Transfer to Another Ward / Bed**: see below.
-- <span class="n">4</span> **I.P. Final Bill**: opens the final bill of this admission in Finance.
+- <span class="n">5</span> **Transfer to Another Ward / Bed**: see below.
+- <span class="n">6</span> **I.P. Final Bill**: opens the final bill of this admission in Finance.
   Saving the final bill discharges the patient.
-- <span class="n">5</span> **Forms**: prints a consent, a referral letter or another form for this
+- <span class="n">7</span> **Forms**: prints a consent, a referral letter or another form for this
   patient, filled in with the admission's details (see Clinical > Consents and Forms).
 - **Print** prints the admission slip.
 
 ### Transfer to another ward or bed
 
-1. In **Transfer to Another Ward / Bed**, choose the **New Ward** and **Bed No.**
+1. In **Transfer to Another Ward / Bed**, choose the **New Ward**, then the **Bed No.** from its free beds.
 2. Check the **Transfer Date**. **At** is the time (HH:MM); leave it empty for now.
 3. Click **Transfer**.
 
@@ -74,7 +108,8 @@ without a bill (for example, a patient who left against advice), fill in **Disch
 - **Remark**: Discharged, LAMA (left against medical advice), Referred, Absconded, Expired or DOPR.
 
 !!! question "Something went wrong?"
-    - *"Bed ... is kept for ..."*: the bed is reserved on the [Bed Board](beds.md). Choose another bed,
-      or release the reservation there.
+    - *The bed I want is not in the list*: somebody is in it, or it is kept for somebody else. The
+      [Bed Board](beds.md) shows who; release a reservation there if it is no longer needed.
+    - *"Bed ... has ... in it"* on saving: another desk gave that bed a moment earlier. Choose another.
     - *The doctor is empty*: the patient's registration has no doctor. Choose one; the patient's next
       screens will then suggest it.

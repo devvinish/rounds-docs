@@ -53,12 +53,46 @@ Open the patient's admission and click **I.P. Final Bill**, or open **Finance > 
     A concession beyond the limit of your role needs approval first
     ([Discount Approvals](rates.md#discount-approvals)).
 
+### An insured patient's bill
+
+When the admission has an [insurance claim](insurance.md#insurance-claims), **Settlement** also divides
+the bill between the insurer and the patient. The figures follow every charge added or removed:
+
+![What the insurer and the patient pay](../assets/screens/finance/ipbill-split.png)
+
+1. <span class="n">1</span> **The Insurer Pays**: the charges it covers, less the co-payment, and never
+   more than the amount it approved.
+2. <span class="n">2</span> **The Patient Pays (after advance)**: the rest, less the advance, the refund and
+   the concession. If the advance was more than the patient's part, it reads *Nothing - Rs ... to be
+   refunded*.
+3. <span class="n">3</span> **How It Is Divided**:
+    - **not covered**: charges on the list of [Items Insurers Do Not Pay](insurance.md#items-insurers-do-not-pay),
+      e.g. attendant food or an admission kit;
+    - **room rent above the limit**: for each day, what the ward's rate is above the **Room Rent Allowed a
+      Day** of the policy;
+    - **co-payment**: the policy's percentage of what is left.
+
+    *Capped at the Rs ... approved* is added when the insurer's part is held to the approved amount.
+
+**Insurance - Needs Attention** warns, for example, when the charges are already more than the amount
+approved: ask the insurer for an enhancement before the patient leaves.
+
+In the example: a bill of Rs 37,750. Rs 1,700 is not covered (attendant food and an admission kit). Rs 300
+is room rent above the limit (three days in the ICU at Rs 350 against Rs 250 allowed). The 10% co-payment
+is Rs 3,575. So the insurer pays Rs 32,175 and the patient Rs 5,575, less a Rs 575 concession.
+
+Saving the bill keeps this division on the claim, and it becomes the amount claimed. From then on the
+dues of the admission are in two parts. [Outstanding Dues](#outstanding-dues) shows the whole balance with
+the **Insurer's Part** and the **Patient's Part** beside it, and
+[Receivables Ageing](day-end.md#receivables-ageing) lists the two separately until each is paid.
+
 ![The list of I.P. final bills](../assets/screens/finance/ipbill-list.png)
 
 ## Outstanding dues
 
 **Finance > Outstanding Dues** lists every admission that still owes money: the bill, what was paid, and
-the balance.
+the balance. For an insured admission, **Insurer's Part** is what is still to come from the insurer, and
+**Patient's Part** is what to ask the patient for.
 
 ![The outstanding dues](../assets/screens/finance/dues.png)
 
