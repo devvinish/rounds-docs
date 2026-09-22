@@ -61,6 +61,26 @@ debit, credit and running balance.
 
 ![A ledger](../assets/screens/finance/ledger.png)
 
+### Insured admissions in the accounts
+
+When the final bill of an insured admission is divided, the accounts keep the two parts apart, so each
+insurer's ledger shows what it owes:
+
+| Voucher | Debit | Credit |
+|---|---|---|
+| **I.P. final bill** | *Patients - Receivable*: the patient's part. The **insurer's own ledger** (e.g. *Suraksha Health TPA*, under Sundry Debtors): its part | *Inpatient Charges*, as for any bill |
+| **Settlement received** | the bank | the insurer's ledger |
+| **TDS kept by the insurer** | *TDS Receivable*: an asset, claimed back against the hospital's income tax | the insurer's ledger |
+| **Disallowed, written off** | *Discount and Write-off* | the insurer's ledger |
+| **Disallowed, the patient pays it**, or **the claim refused** | *Patients - Receivable* | the insurer's ledger |
+
+So once a claim is settled, the insurer's ledger comes back to nought, and whatever is left sits with the
+patient. The ledger names can be changed in **Ledger Settings** (*TDS Receivable* is
+*FIXED:TDS_RECEIVABLE*; each insurer is *COMPANY:* and its name).
+
+Claims settled before the bill was divided (before this feature came in) stay on *Patients - Receivable*,
+as they were.
+
 ## Accounting Export
 
 **Finance > Accounting Export** sends the accounts of a period to the accountant's software:

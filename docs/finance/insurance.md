@@ -84,7 +84,7 @@ Every paper the insurer asks for is kept with its claim:
 1. **What It Is**: the policy or TPA card, a photo ID, the pre-authorisation form, the approval letter, a
    query and its reply, investigation reports, the discharge summary, the final bill, the settlement
    letter, or other.
-2. **The File**: choose or drop a scan or a photo (PDF, JPG or PNG), and add a **Note** if useful.
+2. **The File**: choose or drop a scan or a photo (PDF, JPG, PNG or WebP), and add a **Note** if useful.
 3. **Add the Paper**.
 
 **Open** shows a paper in a new tab. **Remove** takes one added by mistake off the claim, after asking.
@@ -105,7 +105,7 @@ hospital's:
 - **In Use?**: **No** keeps the row without applying it.
 
 A settlement is posted as a payment against the admission's dues, and the TDS and write-off go to their
-ledgers in the accounts.
+ledgers in the accounts (see [insured admissions in the accounts](gst-accounts.md#insured-admissions-in-the-accounts)).
 
 ## Packages and schemes
 
