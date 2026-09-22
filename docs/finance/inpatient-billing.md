@@ -91,8 +91,15 @@ the **Insurer's Part** and the **Patient's Part** beside it, and
 ## Outstanding dues
 
 **Finance > Outstanding Dues** lists every admission that still owes money: the bill, what was paid, and
-the balance. For an insured admission, **Insurer's Part** is what is still to come from the insurer, and
-**Patient's Part** is what to ask the patient for.
+**Balance (All)**. For an insured admission, that balance is two debts:
+
+- **From the Insurer**: what the insurer still has to pay. It is collected by recording the settlement on
+  the [claim](insurance.md#follow-a-claim), not at the counter;
+- **The Patient Pays**: what to ask the patient for. **Receive payment** is offered only when this is more
+  than nought.
+
+For example: a bill of Rs 290 with a 10% co-payment reads *Balance (All) 290, From the Insurer 261, The
+Patient Pays 29*. The payment screen it opens shows the same two parts.
 
 ![The outstanding dues](../assets/screens/finance/dues.png)
 
@@ -114,8 +121,9 @@ the balance. For an insured admission, **Insurer's Part** is what is still to co
 **Finance > Receive from a Patient** takes one payment against **all** the dues of a patient, across bills
 and admissions:
 
-1. Type the **Mobile No.** and press ++tab++, or search the **Patient**. **Owes in All** shows the total, and
-   **Dues of the Patient** lists each due.
+1. Type the **Mobile No.** and press ++tab++, or search the **Patient**. **Owes in All** shows what the
+   patient owes, and **Dues of the Patient** lists each due. For an insured admission only the patient's own
+   part is counted; the insurer's part is shown beside it but is not taken here.
 2. **Amount Received**, the **Date**, a **Remark**, and **Paid By** (a UPI payment shows its QR code).
 3. Click **Receive the Payment**. The amount is set against the oldest admission first, with one receipt
    for each admission it reaches. **Latest Receipts of
