@@ -98,8 +98,24 @@ the **Insurer's Part** and the **Patient's Part** beside it, and
 - **The Patient Pays**: what to ask the patient for. **Receive payment** is offered only when this is more
   than nought.
 
-For example: a bill of Rs 290 with a 10% co-payment reads *Balance (All) 290, From the Insurer 261, The
-Patient Pays 29*. The payment screen it opens shows the same two parts.
+![The dues of an insured admission](../assets/screens/finance/dues-insured.png)
+
+In the example, a bill of Rs 47,050 is owed by two people. The insurer owes Rs 45,750, which it pays when
+the claim is settled. The patient owes Rs 1,300 (the admission kit and attendant food, which insurers do not
+pay), and that is what the counter asks for.
+
+**Receive payment** opens the payment screen with both parts shown:
+
+![Receiving the patient's part](../assets/screens/finance/payment-insured.png)
+
+1. <span class="n">1</span> **Balance Due**: the whole balance of the admission.
+2. <span class="n">2</span> **Of It, from the Insurer**: not to be taken from the patient.
+3. <span class="n">3</span> **The Patient Pays**: enter this as the **Amount Received**, or less if the
+   patient pays in parts.
+
+!!! warning "Do not take the insurer's part from the patient"
+    The insurer's part is cleared when the settlement is recorded on the claim. If the patient paid it too,
+    the admission would show money owed back to the patient.
 
 ![The outstanding dues](../assets/screens/finance/dues.png)
 
@@ -124,9 +140,15 @@ and admissions:
 1. Type the **Mobile No.** and press ++tab++, or search the **Patient**. **Owes in All** shows what the
    patient owes, and **Dues of the Patient** lists each due. For an insured admission only the patient's own
    part is counted; the insurer's part is shown beside it but is not taken here.
+
+    ![Receiving from an insured patient](../assets/screens/finance/receive-insured.png)
+
+    <span class="n">1</span> **Owes in All** is Rs 1,300, the patient's own part, and the **Amount Received**
+    starts at it. <span class="n">2</span> **Dues of the Patient** shows **Still Due (All)**, **From the
+    Insurer** and **The Patient Pays** for each admission.
 2. **Amount Received**, the **Date**, a **Remark**, and **Paid By** (a UPI payment shows its QR code).
-3. Click **Receive the Payment**. The amount is set against the oldest admission first, with one receipt
-   for each admission it reaches. **Latest Receipts of
-   the Patient** shows the receipts made.
+3. Click **Receive the Payment**. The amount is set against the patient's part of the oldest admission
+   first, with one receipt for each admission it reaches. **Latest Receipts of the Patient** shows the
+   receipts made.
 
 ![Receiving a payment from a patient](../assets/screens/finance/receive.png)

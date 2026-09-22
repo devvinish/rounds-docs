@@ -65,14 +65,29 @@ steps link to the pages that explain each screen.
 
 ## A cashless (TPA) admission
 
-1. Admit the patient with the TPA or insurer as the **Empanelment**.
-2. [Open a claim](../finance/insurance.md#open-a-claim) for the admission. Fill in the policy details, and
-   record **Pre-authorisation sent**.
-3. Record the answer: approved (with the amount), a query, or denied.
-4. At discharge, make the final bill, then record **Claim sent** with the amount.
-5. When the money comes, record **Settled**: the amount, the UTR number, the TDS kept, and what was
-   disallowed. Say whether the hospital writes the disallowed part off, or the patient pays it.
-6. The [Receivables Ageing](../finance/day-end.md#receivables-ageing) shows claims still waiting.
+1. **Planned operation?** Open the claim first: **Finance > Insurance Claims > New Claim**, choose
+   [Or a Patient to Be Admitted](../finance/insurance.md#before-the-admission) and the insurer, and record
+   **Pre-authorisation sent**.
+2. **Admit** the patient: the insurer or TPA as the **Empanelment**, a bed from the free beds, and the policy
+   in the [Insurance part](../registration/admission.md#an-insured-patient) (TPA, policy no., member no.,
+   co-payment, room rent allowed). **Save** opens the claim, or takes over the one opened before.
+3. **Pre-authorisation.** Send the insurer's form the usual way. Then on the admission, **Open the Claim** >
+   **Record a Step** > **Pre-authorisation sent**, with the amount asked and the reference. (Skip this if
+   step 1 did it.)
+4. **The answer.** Record **Pre-authorisation approved** with the amount, or the query, or the denial. Ask
+   for an **enhancement** when the admission warns that the charges have passed the amount approved.
+5. **Papers.** Add the card, the ID, the forms and the letters to the claim's
+   [Papers](../finance/insurance.md#papers) as they come.
+6. **Discharge.** Make the [I.P. final bill](../finance/inpatient-billing.md#an-insured-patients-bill). It
+   shows what **the insurer pays** and what **the patient pays**. Take only the patient's part at the counter,
+   then **Save Bill and Discharge**.
+7. **Claim sent.** Send the file to the insurer, then record **Claim sent with the bills**. The amount
+   claimed is the insurer's part unless you enter another.
+8. **Settlement.** When the money comes, record **Settlement received**: the amount, the UTR number, the TDS
+   kept, and what was disallowed. Say whether the hospital writes the disallowed part off, or the patient
+   pays it.
+9. [Receivables Ageing](../finance/day-end.md#receivables-ageing) shows what each insurer still owes, and
+   the accounts keep it on the [insurer's own ledger](../finance/gst-accounts.md#insured-admissions-in-the-accounts).
 
 ## The end of the day
 
