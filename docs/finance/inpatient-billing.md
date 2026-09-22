@@ -113,9 +113,11 @@ pay), and that is what the counter asks for.
 3. <span class="n">3</span> **The Patient Pays**: enter this as the **Amount Received**, or less if the
    patient pays in parts.
 
-!!! warning "Do not take the insurer's part from the patient"
-    The insurer's part is cleared when the settlement is recorded on the claim. If the patient paid it too,
-    the admission would show money owed back to the patient.
+!!! warning "The insurer's part cannot be taken from the patient"
+    **Save Receipt** refuses an amount above **The Patient Pays** on an insured admission: *"only the
+    patient's own part can be received here"*. The insurer's part is received by recording the
+    [settlement](insurance.md#follow-a-claim) on the claim. **Receive from a Patient** also takes no more
+    than the patient's own parts.
 
 ![The outstanding dues](../assets/screens/finance/dues.png)
 
