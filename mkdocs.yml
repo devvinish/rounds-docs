@@ -1,16 +1,20 @@
 site_name: Rounds HMS - User Guide
 site_description: Step-by-step guide to Rounds HMS, a hospital management system built on Oracle APEX.
 site_url: https://devvinish.github.io/rounds-docs/
-repo_url: https://github.com/devvinish/rounds-docs
-repo_name: rounds-docs
-edit_uri: edit/main/docs/
-copyright: Rounds HMS. Every name, number and record in the pictures is invented.
+# the link beside the search box: to Rounds HMS on vinish.dev, not to this repository
+repo_url: https://vinish.dev/get-rounds-hms
+repo_name: Get Rounds HMS
+copyright: >-
+  &copy; 2026 Vinish Kapoor. All rights reserved.
+  Rounds HMS &mdash; <a href="https://vinish.dev/get-rounds-hms">vinish.dev</a>.
+  Every name, number and record in the pictures is invented.
 
 theme:
   name: material
   language: en
   icon:
     logo: material/hospital-box-outline
+    repo: material/open-in-new
   favicon: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -38,10 +42,12 @@ theme:
     - search.suggest
     - search.highlight
     - toc.follow
-    - content.action.edit
 
 extra_css:
   - assets/guide.css
+
+extra_javascript:
+  - assets/guide.js
 
 
 

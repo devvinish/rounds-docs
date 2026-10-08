@@ -71,3 +71,38 @@
   color: var(--md-accent-fg-color);
   font-weight: 700;
 }
+
+/* the owner of Rounds HMS, at the top of the home page */
+.md-typeset .owner {
+  margin: 0 0 1.6em;
+  padding: .9em 1.2em 1.1em;
+  border: 1px solid #f28c28;
+  border-left-width: 5px;
+  border-radius: 6px;
+  background: rgba(242, 140, 40, .07);
+}
+.md-typeset .owner__title {
+  margin: 0 0 .35em;
+  font-size: 1.05em;
+  font-weight: 700;
+}
+.md-typeset .owner p { margin: .4em 0; }
+.md-typeset .owner .md-button { margin-top: .5em; }
+
+/* the link beside the search box is a button to vinish.dev, not a repository */
+.md-header__source { width: auto; max-width: none; margin-left: .8rem; }
+.md-header__source .md-source {
+  display: flex;
+  align-items: center;
+  padding: .3rem .75rem .3rem .45rem;
+  border: 1px solid rgba(255, 255, 255, .6);
+  border-radius: 6px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.md-header__source .md-source:hover { background: rgba(255, 255, 255, .14); opacity: 1; }
+.md-header__source .md-source__icon { width: 1.4rem; height: 1.4rem; margin-left: .2rem; }
+.md-header__source .md-source__icon svg { margin: 0; width: .95rem; height: .95rem; }
+.md-header__source .md-source__icon + .md-source__repository { margin-left: .35rem; padding-left: 0; }
+.md-header__source .md-source__repository { overflow: visible; max-width: none; }
+.md-header__source .md-source__facts { display: none; }

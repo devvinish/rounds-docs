@@ -1,5 +1,16 @@
 # Rounds HMS - User Guide
 
+<div class="owner" markdown>
+<p class="owner__title">Rounds HMS belongs to Vinish Kapoor</p>
+
+Rounds HMS and this guide are the work and property of Vinish Kapoor. They may not be copied,
+republished, resold or used to build another product without his written permission. To buy Rounds HMS,
+see a demonstration or ask anything about it, contact Vinish Kapoor at
+[vinish.dev](https://vinish.dev/get-rounds-hms).
+
+[Get Rounds HMS &rarr;](https://vinish.dev/get-rounds-hms){ .md-button .md-button--primary }
+</div>
+
 Rounds HMS runs the day of a hospital in one place. It covers:
 
 - the registration desk and the wards;
