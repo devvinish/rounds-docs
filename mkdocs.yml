@@ -43,11 +43,13 @@ theme:
     - search.highlight
     - toc.follow
 
+# the ?v= date makes browsers fetch the file again: change it whenever guide.css or guide.js changes
+# (GitHub Pages lets a browser keep the old copy for 10 minutes otherwise)
 extra_css:
-  - assets/guide.css
+  - assets/guide.css?v=2026-10-08
 
 extra_javascript:
-  - assets/guide.js
+  - assets/guide.js?v=2026-10-08
 
 
 
