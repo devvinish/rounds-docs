@@ -1,8 +1,9 @@
 # Rounds HMS - User Guide
 
-> **Rounds HMS and this guide belong to Vinish Kapoor. All rights reserved.** They may not be copied,
-> republished, resold or used to build another product without his written permission — see
-> [LICENSE](LICENSE). To buy Rounds HMS or ask about it: **https://vinish.dev/get-rounds-hms**
+> **Copyright © 2026 Vinish Kapoor. All rights reserved.** Rounds HMS is proprietary software. The
+> software, this guide and its screenshots may not be copied, reproduced, modified, republished,
+> distributed or used to create another product without the prior written permission of Vinish Kapoor —
+> see [LICENSE](LICENSE). Licensing and enquiries: **https://vinish.dev/get-rounds-hms**
 
 The step-by-step user guide of **Rounds HMS**, a hospital management system built on Oracle APEX:
 registration, appointments, the clinical record, billing and insurance, the laboratory and radiology, the

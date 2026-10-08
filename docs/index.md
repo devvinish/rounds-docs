@@ -1,11 +1,15 @@
 # Rounds HMS - User Guide
 
 <div class="owner" markdown>
-<p class="owner__title">Rounds HMS belongs to Vinish Kapoor</p>
+<p class="owner__title">Proprietary software &middot; Copyright &copy; 2026 Vinish Kapoor. All rights reserved.</p>
 
-Rounds HMS and this guide are the work and property of Vinish Kapoor. They may not be copied,
-republished, resold or used to build another product without his written permission. To buy Rounds HMS,
-see a demonstration or ask anything about it, contact Vinish Kapoor at
+Rounds HMS is proprietary software developed and owned by Vinish Kapoor, who holds the copyright in
+the software, in this user guide and in its screenshots. Rounds HMS is licensed to hospitals under a
+written subscription agreement; it is not sold. No part of the software or of this guide may be copied,
+reproduced, modified, republished, distributed or used to create another product without the prior
+written permission of Vinish Kapoor.
+
+For licensing, a demonstration or any enquiry, contact Vinish Kapoor at
 [vinish.dev](https://vinish.dev/get-rounds-hms).
 
 [Get Rounds HMS &rarr;](https://vinish.dev/get-rounds-hms){ .md-button .md-button--primary }
